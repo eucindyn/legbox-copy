@@ -17,6 +17,7 @@ ul, li, a {
   font-family: 'Jost', sans-serif;
   letter-spacing: 0.015em;
   font-size: 1rem;
+  padding: 14px;
 }
 
 .header span {
