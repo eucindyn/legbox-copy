@@ -88,7 +88,8 @@ a {
   display: none;
 }
 
-.header-nav [data-dropdown]:hover .dropdown-menu {
+.header-nav [data-dropdown]:hover .dropdown-menu,
+.header-nav [data-dropdown].active .dropdown-menu {
   display: block;
   animation: show-up 0.3s forwards;
 }
