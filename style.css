@@ -145,23 +145,20 @@ a {
 .main-container {
   display: flex;
   justify-content: center;
+  gap: 70px;
   box-sizing: border-box;
   font-family: 'Jost', sans-serif;
   margin-top: 5rem;
   margin-bottom: 10rem;
 }
 
-.main-container .imagens {
-  cursor: pointer;
-}
-
-.main-container .imagens ul {
+.main-container .main-imagens ul {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.main-container .imagens img {
+.main-container .main-imagens img {
   max-width: 100%;
   display: block;
 }
@@ -299,6 +296,11 @@ a {
   flex-direction: column;
   gap: 15px;
   margin-top: 2rem;
+  color: #666;
+}
+
+.information strong {
+  color: #1c1d1d;
 }
 
 .information li {
