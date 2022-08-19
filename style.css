@@ -75,8 +75,8 @@ a {
   display: inline-block;
   width: 10px;
   height: 6px;
-  background-image: url('./img/seta.svg');
-  margin-left: 8px;
+  background-image: url("./img/lista.svg");
+  margin-left: 5px;
   margin-bottom: 2px;
 }
 
