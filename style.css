@@ -269,8 +269,7 @@ a {
   letter-spacing: 0.015em;
 }
 
-.btn-wpp {
-  width: 100%;
+.btn-whatsapp{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -285,22 +284,22 @@ a {
   color: #666;
 }
 
-.btn-wpp::before {
+.btn-whatsapp::before {
   display: inline-block;
   content: '';
   background-image: url("./img/whatsapp.svg");
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
-.btn-wpp:hover {
+.btn-whatsapp:hover {
   color: #0f6122;
 }
 
 .information {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 1rem;
   margin-top: 2rem;
   color: #666;
 }
