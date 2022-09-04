@@ -218,17 +218,17 @@ a {
   border-top: 1px solid #d9d9d9;
 }
 
-.tamanhos > div {
-  display: flex;
-  flex-direction: column;
-}
-
-.tamanhos .medidas a {
+.medidas {
   color: #666;
   font-size: 14px;
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
   gap: 3px;
+}
+
+.medidas:hover {
+  color: #eb2f93;
 }
 
 .tamanhos .escolher-tamanho {
@@ -269,7 +269,7 @@ a {
   letter-spacing: 0.015em;
 }
 
-.btn-whatsapp{
+.btn-whatsapp {
   display: flex;
   align-items: center;
   justify-content: center;
