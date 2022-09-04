@@ -152,10 +152,20 @@ a {
   margin-bottom: 10rem;
 }
 
-.main-container .main-imagens ul {
+/* .main-container .main-imagens ul {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+} */
+
+.main-imagens .imagem {
+  width: 100px;
+  height: 126px;
+  grid-column: 2;
+}
+
+.main-imagens .one {
+  grid-column: 1;
 }
 
 .main-container .main-imagens img {
@@ -269,25 +279,21 @@ a {
   padding: 14px;
   background-color: #fff;
   border: 1px solid #0f6122;
-}
-
-.btn-wpp a {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1rem;
   color: #666;
 }
 
-.btn-wpp a::before {
+.btn-wpp::before {
   display: inline-block;
   content: '';
   background-image: url("./img/whatsapp.svg");
-  margin-bottom: -6px;
   width: 24px;
   height: 24px;
 }
 
-.btn-wpp a:hover {
+.btn-wpp:hover {
   color: #0f6122;
 }
 
